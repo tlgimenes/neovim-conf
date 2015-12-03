@@ -21,7 +21,7 @@ If no errors occur you should be ready to go
 ## Manual Install
 For installing manually, you just need to place the "nvim" folder in the right place for the current user. Open a terminal and type
 ```
-cd ~
+cd ~/.config
 ln -s path/to/nvim/folder .
 ```
 

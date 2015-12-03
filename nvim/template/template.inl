@@ -1,0 +1,1 @@
+/home/zip76/.nvim/template/template.inc
