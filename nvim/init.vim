@@ -89,6 +89,9 @@ augroup resCur
   autocmd BufReadPost * call setpos(".", getpos("'\""))
 augroup END
 
+" Set background compability to dark
+set background=dark
+
 " =========== END Basic Vim Settings ===========
 
 " =========== Vim Plug Settings ===========
