@@ -1,11 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/zip76/.nvim'
-let g:netrw_dirhist_2='/home/zip76/.nvim/autoload'
-let g:netrw_dirhist_3='/home/zip76/.nvim'
-let g:netrw_dirhist_4='/home/zip76/Documents/Polytechnique/3annee/Stage/HKUST/Internship/Code/molec_miner/metric'
-let g:netrw_dirhist_5='/home/zip76/.nvim'
-let g:netrw_dirhist_6='/home/zip76/Documents/GitHub/dotFiles/.nvim/plugged'
-let g:netrw_dirhist_7='/home/zip76/Documents/GitHub/CLGLSim/window'
-let g:netrw_dirhist_8='/home/zip76/Documents/GitHub/CLGLSim/window/src'
-let g:netrw_dirhist_9='/home/zip76/Documents/Polytechnique/3annee/Stage/HKUST/Internship/Code/molec_miner/knn/test'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/etc/NetworkManager'
+let g:netrw_dirhist_2='/home/zip76/.ssh'
+let g:netrw_dirhist_3='/run/media/zip76/44f14367-68f9-4c11-97e4-1be1ddbe18bb/wizardserver/Idiomas'
+let g:netrw_dirhist_4='/home/zip76/code/way/Modalidade'
