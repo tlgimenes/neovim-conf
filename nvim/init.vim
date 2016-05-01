@@ -70,6 +70,17 @@ nmap <silent> <C-Down> :wincmd j<CR>
 nmap <silent> <C-Left> :wincmd h<CR>
 nmap <silent> <C-Right> :wincmd l<CR>
 
+" Terminal keybinds
+:tnoremap <Esc> <C-\><C-n>
+:tnoremap <C-Left> <C-\><C-n><C-w>h
+:tnoremap <C-Down> <C-\><C-n><C-w>j
+:tnoremap <C-Up> <C-\><C-n><C-w>k
+:tnoremap <C-Right> <C-\><C-n><C-w>l
+:nnoremap <C-Left> <C-w>h
+:nnoremap <C-Down> <C-w>j
+:nnoremap <C-Up> <C-w>k
+:nnoremap <C-Right> <C-w>l
+
 " Wildmenu completion "
 set wildignore+=.hg,.git,.svn " Version Controls"
 set wildignore+=*.aux,*.out,*.toc "Latex Indermediate files"
