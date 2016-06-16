@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/etc/NetworkManager'
 let g:netrw_dirhist_2='/home/zip76/.ssh'
 let g:netrw_dirhist_3='/run/media/zip76/44f14367-68f9-4c11-97e4-1be1ddbe18bb/wizardserver/Idiomas'
 let g:netrw_dirhist_4='/home/zip76/code/way/Modalidade'
+let g:netrw_dirhist_5='/home/ec2011/ra118827/.oh-my-zsh'
