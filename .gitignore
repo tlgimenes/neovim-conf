@@ -1,2 +1,4 @@
 # Ignore pluggins, it's better to download then every time
 nvim/plugged/*
+
+nvim/.netrwhist

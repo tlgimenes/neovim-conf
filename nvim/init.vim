@@ -109,6 +109,11 @@ set background=dark
 
 call plug#begin('~/.config/nvim/plugged')
 
+" I have no ideia what it does, but it is a dependency for deoplete
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
+
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on':  'NERDTreeToggle' }
@@ -131,6 +136,8 @@ Plug 'Raimondi/delimitMate' " Auto brackets
 Plug 'godlygeek/tabular' " Tabular pluggin
 
 "Plug 'Shougo/neocomplete' | Plug 'Shougo/neosnippet' | Plug 'Shougo/neosnippet-snippets' " Snippet plugin
+
+Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') } " Dark neo-complete 
 
 call plug#end()
 
@@ -187,5 +194,10 @@ function! s:template_keywords()
     silent execute 'normal! "_da>'
   endif
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" Deoplete options
+" This plugin makes autocomplete easy
+let g:deoplete#enable_at_startup = 1
 
 " =========== END Vim Plugging Settings ===========

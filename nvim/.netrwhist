@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/zip76/Code/wmedia/wmedia'
-let g:netrw_dirhist_2='/home/zip76/Code/wmedia/mediabrowser'
-let g:netrw_dirhist_3='/webapps/wmedia_django/wmedia/wmedia'
-let g:netrw_dirhist_4='/home/zip76/Code/wmedia/wmedia'
-let g:netrw_dirhist_5='/webapps/wmedia_django/wmedia/wmedia'
-let g:netrw_dirhist_6='/home/zip76/Code/wmedia/wmadmin/templates'
-let g:netrw_dirhist_7='/home/zip76/Repository'
