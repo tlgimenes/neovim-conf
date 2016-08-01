@@ -139,6 +139,10 @@ Plug 'godlygeek/tabular' " Tabular pluggin
 
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') } " Dark neo-complete 
 
+"Plug 'mhartington/deoplete-typescript' " Doeplete for typescript
+
+Plug 'leafgarland/typescript-vim' " TypeScript syntax for vim
+
 call plug#end()
 
 " =========== END Vim Plug Settings ===========
@@ -198,6 +202,7 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""
 " Deoplete options
 " This plugin makes autocomplete easy
-let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 1                " Enable at startup
+"let g:deoplete#sources#tss#javascript_support = 1   " Typescript support
 
 " =========== END Vim Plugging Settings ===========
